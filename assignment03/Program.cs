@@ -17,6 +17,20 @@
             //    Console.Write($"{i.ToString()} , ");
             //}
             #endregion
+
+            #region  Q2:Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+            //int num;
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter a Number:");
+            //    f = int.TryParse(Console.ReadLine(), out num);
+            //} while (!f);
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    Console.WriteLine(i*num);
+            //}
+                #endregion
         }
     }
 }
