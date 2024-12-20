@@ -137,7 +137,35 @@ namespace ASS03
             //Console.WriteLine(Numbers.Length);
             //Console.WriteLine(Numbers.Rank);
             #endregion
-            #region
+            #region 2D array
+            //int[,] Marks = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 10, 20, 30, 40, 50 }, {100,200,300,400,500 } };
+            //int[,] Marks = new int[3, 5];
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    bool flag;
+            //    Console.WriteLine($"Enter Date Student  {i + 1}: ");
+            //    for (int j = 0; j < Marks.GetLength(1); )
+            //    {
+            //        Console.WriteLine($"Enter subject {j+1}: ");
+            //       flag =int.TryParse(Console.ReadLine(),out Marks[i,j]);
+            //        if (flag && Marks[i,j]>=0) j++;
+            //    }
+
+            //}
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($" Date Student  {i + 1}: ");
+            //    for (int j = 0; j < Marks.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($" subject {j + 1}:{ Marks[i,j]}");
+                   
+            //    }
+
+            //}
+            //Console.WriteLine(Marks.Rank);//2
+            //Console.WriteLine(Marks.GetLength(0));
+            //Console.WriteLine(Marks.GetLength(1));
+            
             #endregion
             #region
             #endregion
