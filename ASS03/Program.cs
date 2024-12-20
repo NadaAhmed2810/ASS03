@@ -42,6 +42,39 @@ namespace ASS03
             //    Console.WriteLine(Num + 10);
             //}     
             #endregion
+            #region While_Do While
+            //int Num;
+            //bool flag=false;
+            //do {
+            //    Console.Write("Enter Even Number:");
+            //   // Num = int.Parse(Console.ReadLine());
+            //    flag =int.TryParse(Console.ReadLine(), out Num);
+            //} while (Num%2==1 || !flag);
+            //Console.WriteLine($"{Num} is Even ");
+            //int Number = 3;
+            //bool flag=false;
+            //while (Number%2==1 || !flag)
+            //{
+            //    Console.Write("Enter Even Number: ");
+            //    flag=int.TryParse(Console.ReadLine(),out Number);
+            //}
+            //Console.WriteLine($"{Number} Is Even");
+
+            #endregion
+            #region
+            #endregion    
+            #region
+            #endregion    
+            #region
+            #endregion    
+            #region
+            #endregion    
+            #region
+            #endregion    
+            #region
+            #endregion    
+            #region
+             #endregion
         }
     }
 }
