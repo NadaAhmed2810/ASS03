@@ -186,9 +186,18 @@ namespace ASS03
             //    }
             //}
             //task method in array 
-                #endregion
+            #endregion
+            #region Array Methods
+            //int[] numbers = { 1, 2, 3 ,4,5};
+            //string []Names = { "Nada", "Noura", "radwa", "nour", "aya" };
+          
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            #endregion
 
-            }
         }
+    }
     }
 
