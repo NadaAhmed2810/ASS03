@@ -158,19 +158,36 @@ namespace ASS03
             //    for (int j = 0; j < Marks.GetLength(1); j++)
             //    {
             //        Console.WriteLine($" subject {j + 1}:{ Marks[i,j]}");
-                   
+
             //    }
 
             //}
             //Console.WriteLine(Marks.Rank);//2
             //Console.WriteLine(Marks.GetLength(0));
             //Console.WriteLine(Marks.GetLength(1));
-            
+            //for (int i=0;i<Marks.GetLength(0); i++)
+
+            //{
+            //    Console.WriteLine(Marks[i/Marks.GetLength(1),i%Marks.GetLength(1)]);
+            //}
             #endregion
-            #region
-            #endregion
-            #region
-            #endregion
+            #region judged array
+            //int[][] Numbers = new int[3][];
+            //Numbers[0] = new int[3] { 1, 2, 3 };
+            //Numbers[1] = new int[2] { 4, 5 };
+            //Numbers[2] = new int[1] { 6 };
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    for (int j = 0; j < Numbers[i].Length; j++)
+            //    {
+            //        Console.WriteLine(Numbers[i][j]);
+            //        
+            //        
+            //    }
+            //}
+                #endregion
+
+            }
         }
     }
-}
+
