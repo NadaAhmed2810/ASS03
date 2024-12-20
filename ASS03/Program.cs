@@ -121,7 +121,21 @@ namespace ASS03
             //sb.AppendJoin('/', "mostafa", "hany", "mohammed");
             //Console.WriteLine(sb);
             #endregion
-            #region
+            #region 1D array
+            //int[] Numbers = new int[10];
+            //int[] Numbers = new int[3] {1,2,3 };
+            //int[] Numbers = new int[]{1,2,3};
+            //int[] Numbers ={1,2,3};
+            //int[] Numbers = new int[3];
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.Write($"Enter element {i+1}");
+            //    Numbers[i] = int.Parse(Console.ReadLine());
+            //}
+            //for (int i = 0;i < Numbers.Length; i++) 
+            //    Console.WriteLine(Numbers[i]);
+            //Console.WriteLine(Numbers.Length);
+            //Console.WriteLine(Numbers.Rank);
             #endregion
             #region
             #endregion
