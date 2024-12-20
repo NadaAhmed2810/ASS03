@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Text;
 
 namespace ASS03
 {
@@ -96,9 +97,29 @@ namespace ASS03
             //message += "Route";
             //Console.WriteLine(message.GetHashCode());
             #endregion
-            #region
+            #region StringBuilder
+            //linked list of char 
+            //amenable 
+            //StringBuilder sb = new StringBuilder("Hello");
+            //sb = "ahmed";//to convert string
+            //Console.WriteLine(sb);
+            //Console.WriteLine(sb.GetHashCode());
+            //sb.Append(" Route");
+            //Console.WriteLine(sb);
+            //Console.WriteLine(sb.GetHashCode());
             #endregion
-            #region
+            #region stringBuilder method
+            //StringBuilder sb = new StringBuilder("Welcome");
+            //sb.Append("TO Route");
+            //sb.AppendLine(" Mostafa");//append string + new line
+            //sb.AppendLine("Hany");
+            //sb.Remove(0,7);
+            //sb.Insert(0,"Hello");
+            //int age = 10;
+            //string name = "Ali";
+            //sb.AppendFormat("Name : {0}, Age : {1}",name,age);
+            //sb.AppendJoin('/', "mostafa", "hany", "mohammed");
+            //Console.WriteLine(sb);
             #endregion
             #region
             #endregion
