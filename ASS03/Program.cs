@@ -61,20 +61,53 @@ namespace ASS03
             //Console.WriteLine($"{Number} Is Even");
 
             #endregion
+            #region String
+            //class => Reference  type
+            //Immutable  data type
+            //array of char
+            //act as value
+            //string Name;
+            //Name = new string("Ahmed");
+            //Name = "Ahmed";
+            //string Name01 = "Ahmed";
+            //string Name02 = "Ahmed";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"{Name01} Has HC: {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"{Name02} Has HC: {Name02.GetHashCode()}");
+            //string Name01 = "Ahmed";
+            //string Name02 = "Ali";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"{Name01} Has HC: {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"{Name02} Has HC: {Name02.GetHashCode()}");
+            //Name02 = Name01;
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"{Name01} Has HC: {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"{Name02} Has HC: {Name02.GetHashCode()}");
+            //Name01 = "Nada";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"{Name01} Has HC: {Name01.GetHashCode()}");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"{Name02} Has HC: {Name02.GetHashCode()}");
+            //string message = "Hello";
+            //Console.WriteLine(message.GetHashCode());
+            //message += "Route";
+            //Console.WriteLine(message.GetHashCode());
+            #endregion
             #region
-            #endregion    
+            #endregion
             #region
-            #endregion    
+            #endregion
             #region
-            #endregion    
+            #endregion
             #region
-            #endregion    
+            #endregion
             #region
-            #endregion    
+            #endregion
             #region
-            #endregion    
-            #region
-             #endregion
+            #endregion
         }
     }
 }
