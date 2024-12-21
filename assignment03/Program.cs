@@ -458,6 +458,41 @@ namespace assignment03
             //}
             //Console.WriteLine($"MaxLength: {MaxLength-1}");
             #endregion
+            #region Q18: Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.
+            //int rows;
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter the number of rows: ");
+            //    f = int.TryParse(Console.ReadLine(), out rows);
+            //} while (!f || rows <= 0);
+            //int cols;
+            //do
+            //{
+            //    Console.Write("Enter the number of columns : ");
+            //    f = int.TryParse(Console.ReadLine(), out cols);
+            //} while (!f || rows <= 0);
+            //int[,] Matrix1 = new int[rows, cols];
+            //int[,] Matrix2 = new int[rows, cols];
+
+            //for (int i = 0; i < rows; i++)
+            //{
+
+            //    for (int j = 0; j < cols;)
+            //    {
+            //        Console.Write($"Enter cell [{i},{j}]:");
+            //        f = int.TryParse(Console.ReadLine(), out Matrix1[i, j]);
+            //        if (f) j++;
+            //    }
+            //}
+            //Array.Copy(Matrix1, Matrix2, rows * cols);
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //        Console.Write($"{Matrix2[i, j]} ");
+            //    Console.WriteLine();
+            //}
+            #endregion
         }
     }
 
