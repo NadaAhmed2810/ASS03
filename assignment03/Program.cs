@@ -2,6 +2,12 @@
 {
     internal class Program
     {
+       static string reversestring(string input)
+        {
+           char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
         static void Main(string[] args)
         {
             #region Q1: Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
@@ -46,21 +52,28 @@
             // }
             #endregion
             #region  Q4: Write a program that takes two integers then prints the power.
-           // int Base , power,res=1;
-           // bool f ,f1= false;
-           //  do
-           //  {
-           //      Console.Write("Enter a base:");
-           //      f = int.TryParse(Console.ReadLine(), out Base);
-           //  } while (!f);
-           // do
-           // {
-           //     Console.Write("Enter a power:");
-           //     f1 = int.TryParse(Console.ReadLine(), out power);
-           // } while (!f1);
-           // for (int i = 0; i < power; i++)
-           //     res *= Base;
-           //Console.WriteLine(res);
+            // int Base , power,res=1;
+            // bool f ,f1= false;
+            //  do
+            //  {
+            //      Console.Write("Enter a base:");
+            //      f = int.TryParse(Console.ReadLine(), out Base);
+            //  } while (!f);
+            // do
+            // {
+            //     Console.Write("Enter a power:");
+            //     f1 = int.TryParse(Console.ReadLine(), out power);
+            // } while (!f1);
+            // for (int i = 0; i < power; i++)
+            //     res *= Base;
+            //Console.WriteLine(res);
+            #endregion
+            #region Q5:Write a program to allow the user to enter a string and print the REVERSE of it.
+            //Console.WriteLine("Enter String");
+            //string S=Console.ReadLine();
+            //string x= reversestring(S);
+            //Console.WriteLine(x);
+
             #endregion
         }
     }
