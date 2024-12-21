@@ -26,94 +26,147 @@ namespace assignment03
             if (!f)
                 Console.WriteLine(num);
         }
+        static void ToBinary(int num)
+        {
+            char[] bits = new char[32];
+            int index = 0;
+
+            
+            while (num > 0)
+            {
+                if (num%2 == 0) bits[index++] = '0';
+                else bits[index++] = '1';
+                num /= 2;                
+                
+            }
+            Array.Reverse(bits);
+            Console.WriteLine(new string(bits));
+
+        }
             static void Main(string[] args)
             {
-                #region Q1: Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
-                //bool flag = false;
-                //int num;
-                //do
-                //{
-                //    Console.Write("Enter a Number:");
-                //    flag = int.TryParse(Console.ReadLine(), out num);
-                //} while (!flag);
-                //for (int i = 1; i <= num; i++)
-                //{
-                //    Console.Write($"{i.ToString()} , ");
-                //}
-                #endregion
+            #region Q1: Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
+            //bool flag = false;
+            //int num;
+            //do
+            //{
+            //    Console.Write("Enter a Number:");
+            //    flag = int.TryParse(Console.ReadLine(), out num);
+            //} while (!flag);
+            //for (int i = 1; i <= num; i++)
+            //{
+            //    Console.Write($"{i.ToString()} , ");
+            //}
+            #endregion
 
-                #region  Q2:Write a program that allows the user to insert an integer then print a multiplication table up to 12.
-                //int num;
-                //bool f = false;
-                //do
-                //{
-                //    Console.Write("Enter a Number:");
-                //    f = int.TryParse(Console.ReadLine(), out num);
-                //} while (!f);
-                //for (int i = 1; i <= 12; i++)
-                //{
-                //    Console.WriteLine(i*num);
-                //}
-                #endregion
-                #region Q3:Write a program that allows to user to insert number then print all even numbers between 1 to this number
-                // int num;
-                //bool f = false;
-                // do
-                // {
-                //     Console.Write("Enter a Number:");
-                //     f = int.TryParse(Console.ReadLine(), out num);
-                // } while (!f);
-                // for(int i = 2; i <= num; i++)
-                // {
-                //     if(i%2==0)
-                //         Console.WriteLine(i);
-                // }
-                #endregion
-                #region  Q4: Write a program that takes two integers then prints the power.
-                // int Base , power,res=1;
-                // bool f ,f1= false;
-                //  do
-                //  {
-                //      Console.Write("Enter a base:");
-                //      f = int.TryParse(Console.ReadLine(), out Base);
-                //  } while (!f);
-                // do
-                // {
-                //     Console.Write("Enter a power:");
-                //     f1 = int.TryParse(Console.ReadLine(), out power);
-                // } while (!f1);
-                // for (int i = 0; i < power; i++)
-                //     res *= Base;
-                //Console.WriteLine(res);
-                #endregion
-                #region Q5:Write a program to allow the user to enter a string and print the REVERSE of it.
-                //Console.WriteLine("Enter String");
-                //string S=Console.ReadLine();
-                //string x= reversestring(S);
-                //Console.WriteLine(x);
+            #region  Q2:Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+            //int num;
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter a Number:");
+            //    f = int.TryParse(Console.ReadLine(), out num);
+            //} while (!f);
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    Console.WriteLine(i*num);
+            //}
+            #endregion
+            #region Q3:Write a program that allows to user to insert number then print all even numbers between 1 to this number
+            // int num;
+            //bool f = false;
+            // do
+            // {
+            //     Console.Write("Enter a Number:");
+            //     f = int.TryParse(Console.ReadLine(), out num);
+            // } while (!f);
+            // for(int i = 2; i <= num; i++)
+            // {
+            //     if(i%2==0)
+            //         Console.WriteLine(i);
+            // }
+            #endregion
+            #region  Q4: Write a program that takes two integers then prints the power.
+            // int Base , power,res=1;
+            // bool f ,f1= false;
+            //  do
+            //  {
+            //      Console.Write("Enter a base:");
+            //      f = int.TryParse(Console.ReadLine(), out Base);
+            //  } while (!f);
+            // do
+            // {
+            //     Console.Write("Enter a power:");
+            //     f1 = int.TryParse(Console.ReadLine(), out power);
+            // } while (!f1);
+            // for (int i = 0; i < power; i++)
+            //     res *= Base;
+            //Console.WriteLine(res);
+            #endregion
+            #region Q5:Write a program to allow the user to enter a string and print the REVERSE of it.
+            //Console.WriteLine("Enter String");
+            //string S=Console.ReadLine();
+            //string x= reversestring(S);
+            //Console.WriteLine(x);
 
-                #endregion
-                #region Q6:Write a program in C# Sharp to find prime numbers within a range of numbers.
-                //int num1, num2;
-                //Console.WriteLine("Test Data");
-                //bool f = false;
-                //do
-                //{
-                //    Console.Write("Input starting number of range: ");
-                //    f = int.TryParse(Console.ReadLine(), out num1);
-                //} while (!f);
-                //f = false;
-                //do
-                //{
-                //    Console.Write("Input ending number of range: ");
-                //    f = int.TryParse(Console.ReadLine(), out num2);
-                //} while (!f);
-                //for (int i = num1; i <= num2; i++)
-                //{
-                //  Prime(i);
-                //}
-                #endregion
-            }
+            #endregion
+            #region Q6:Write a program in C# Sharp to find prime numbers within a range of numbers.
+            //int num1, num2;
+            //Console.WriteLine("Test Data");
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Input starting number of range: ");
+            //    f = int.TryParse(Console.ReadLine(), out num1);
+            //} while (!f);
+            //f = false;
+            //do
+            //{
+            //    Console.Write("Input ending number of range: ");
+            //    f = int.TryParse(Console.ReadLine(), out num2);
+            //} while (!f);
+            //for (int i = num1; i <= num2; i++)
+            //{
+            //  Prime(i);
+            //}
+            #endregion
+            #region Q7 Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            //int num1;
+            //Console.WriteLine("Test Data");
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter a number to convert : ");
+            //    f = int.TryParse(Console.ReadLine(), out num1);
+            //} while (!f);
+            //ToBinary(num1);
+            #endregion
+            #region Q8: Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
+            //int num1;
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter size of matrix  : ");
+            //    f = int.TryParse(Console.ReadLine(), out num1);
+            //} while (!f);
+            //int[,] Matrix = new int[num1, num1];
+
+            //for(int i = 0; i < num1; i++)
+            //{
+            //    for(int j = 0; j < num1; j++)
+            //    {
+            //        if (i == j)
+            //            Matrix[i, j] = 1;
+            //        else Matrix[i, j] = 0;  
+            //    }
+            //}
+            //for(int i = 0;i < Matrix.Length; i++)
+            //{
+            //    Console.Write(Matrix[i/Matrix.GetLength(1),i%Matrix.GetLength(1)]);
+            //    if ((i+1) % Matrix.GetLength(1) == 0 && i!=0) Console.WriteLine();
+            //}
+            #endregion
         }
+    }
     }
 
