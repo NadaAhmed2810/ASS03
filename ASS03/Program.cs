@@ -186,9 +186,30 @@ namespace ASS03
             //    }
             //}
             //task method in array 
-                #endregion
+            #endregion
+            #region Array methods
+            //int [] numbers = { 1, 2,5, 3, 4, 5,-1 ,-1};// -1 -1 1 2 3 4 5 5
+            //int[] copyarr=new int[10];
+            //String[] Names = { "Nada", "Noura", "Nour", "Aya", "Radwa" };
+            // Array.Clear(numbers, 2, numbers.Length-2);//2+5
+            // Array.Copy(numbers, copyarr, 3);
+            //Array.Resize(ref numbers,10);
+            //Array.Sort(numbers);
+            //Array.Reverse(numbers); 
+            //Console.WriteLine(Array.BinarySearch(numbers, -1));//log n
+            // Console.WriteLine(Array.TrueForAll(numbers,X=>X>-2));
+            //int[] a = Array.FindAll(numbers, X => X > 1);
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    Console.WriteLine(a[i]);
+            //}
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            #endregion
 
-            }
         }
+    }
     }
 
