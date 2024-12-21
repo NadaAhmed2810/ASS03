@@ -192,6 +192,13 @@ namespace assignment03
             //}
 
             #endregion
+            #region Q10:Write C# program that take two string variables and print them as one variable 
+            //Console.Write("Enter the first String: ");
+            //string s1=Console.ReadLine();
+            //Console.Write("Enter the Second String: ");
+            //string s2 = Console.ReadLine();
+            //Console.WriteLine($"{s1}{s2}");    
+            #endregion
         }
     }
     }
