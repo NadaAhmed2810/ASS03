@@ -493,8 +493,32 @@ namespace assignment03
             //    Console.WriteLine();
             //}
             #endregion
+            #region Q19:Write a Program to Print One Dimensional Array in Reverse Order
+            //int size;
+
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter the size of the array: ");
+            //   f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f || size <= 0);
+            //int[] arr = new int[size];
+            //f = false;
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f) c++;
+            //}
+            //Array.Reverse(arr);
+            //for(int i=0;i<arr.Length;i++) Console.WriteLine(arr[i]);
+
+
+
+
+
+            #endregion
         }
     }
-
-
 }

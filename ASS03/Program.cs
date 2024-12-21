@@ -196,9 +196,7 @@ namespace ASS03
             //    Console.WriteLine(numbers[i]);
             //}
             #endregion
-           
-
-
+    
         }
     }
     }
