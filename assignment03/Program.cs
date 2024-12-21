@@ -293,8 +293,53 @@ namespace assignment03
             //    Console.WriteLine(merge[c]) ;
             //}
             #endregion
-        }
+            #region Q14:Write a program in C# Sharp to count the frequency of each element of an array.
+            //int size;
+
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter the size of the array: ");
+            //    f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f || size <= 0);
+            //int[] arr = new int[size];
+            //f = false;
+            //int maxValue = int.MinValue;
+            //int minValue = int.MaxValue;
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f) {
+            //        if (arr[c] > maxValue)
+            //            maxValue = arr[c];
+            //        if (arr[c] < minValue)
+            //            minValue = arr[c];
+            //        c++;
+            //    }
+
+            //}
+            //int[] frequency = new int[maxValue + 1];
+            //for (int i = 0; i < size; i++)
+            //{
+            //    frequency[arr[i]]++;
+            //}
+
+            //Console.WriteLine("Frequency of each element:");
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (frequency[arr[i]] > 0)
+            //    {
+            //        Console.WriteLine($"the freq of Element {arr[i]} is {frequency[arr[i]]}");
+            //        frequency[arr[i] ]= -1;
+            //    }
+            //}
+                #endregion
+
+
+            }
     }
-    }
+ }
   
 
