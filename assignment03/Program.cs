@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace assignment03
 {
@@ -392,10 +393,45 @@ namespace assignment03
             //Console.WriteLine($"Max Value: {maxValue}");
 
             #endregion
+            #region Q16: Write a program in C# Sharp to find the second largest element in an array.
+            //int size;
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter Size of Array: ");
+            //    f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f && size > 0);
+            //int[] arr = new int[size];
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f)
+            //    {
+            //        c++;
+            //    }
+            //}
+            //int largest = int.MinValue;
+            //int secondLargest = int.MinValue;
+            //foreach (int num in arr)
+            //{
+            //    if (num > largest)
+            //    {
+            //        secondLargest = largest;
+            //        largest = num;
+            //    }
+            //    else if (num > secondLargest && num < largest)
+            //    {
+            //        secondLargest = num;
+            //    }
 
+            //}
+            //if(secondLargest==int.MinValue)Console.WriteLine("Array Is Equal");
+            //else Console.WriteLine($"SecondLargest {secondLargest}");
+            #endregion
         }
     }
-}
- 
-  
 
+
+}
