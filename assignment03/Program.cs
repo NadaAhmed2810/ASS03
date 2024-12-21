@@ -166,6 +166,32 @@ namespace assignment03
             //    if ((i+1) % Matrix.GetLength(1) == 0 && i!=0) Console.WriteLine();
             //}
             #endregion
+            #region Q9:Write C# program that Extract a substring from a given string.
+            //Console.Write("Enter the  string: ");
+            //string S = Console.ReadLine();
+            //bool f = false;
+            //int sIndex;
+            //do {
+            //    Console.Write("Enter the starting index: ");
+            //    f = int.TryParse(Console.ReadLine(),out sIndex);
+            //} while(!f);
+
+            //int length;
+            //do
+            //{
+            //    Console.Write("Enter the length of the substring: ");
+            //    f = int.TryParse(Console.ReadLine(), out length);
+            //} while (!f);
+            //try
+            //{
+            //   Console.WriteLine (S.Substring(sIndex, length));
+            //}
+            //catch (ArgumentOutOfRangeException ex)
+            //{
+            //    Console.WriteLine($"Error: {ex.Message}");
+            //}
+
+            #endregion
         }
     }
     }
