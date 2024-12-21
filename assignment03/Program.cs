@@ -31,13 +31,13 @@ namespace assignment03
             char[] bits = new char[32];
             int index = 0;
 
-            
+
             while (num > 0)
             {
-                if (num%2 == 0) bits[index++] = '0';
+                if (num % 2 == 0) bits[index++] = '0';
                 else bits[index++] = '1';
-                num /= 2;                
-                
+                num /= 2;
+
             }
             Array.Reverse(bits);
             Console.WriteLine(new string(bits));
@@ -305,19 +305,16 @@ namespace assignment03
             //int[] arr = new int[size];
             //f = false;
             //int maxValue = int.MinValue;
-            //int minValue = int.MaxValue;
             //Console.WriteLine("Enter the elements of the array:");
             //for (int c = 0; c < size;)
             //{
             //    Console.Write($"Enter Element {c + 1} : ");
             //    f = int.TryParse(Console.ReadLine(), out arr[c]);
             //    if (f) {
-            //        if (arr[c] > maxValue)
+            //       if (arr[c] > maxValue)
             //            maxValue = arr[c];
-            //        if (arr[c] < minValue)
-            //            minValue = arr[c];
             //        c++;
-            //    }
+            //  }
 
             //}
             //int[] frequency = new int[maxValue + 1];
@@ -331,15 +328,74 @@ namespace assignment03
             //{
             //    if (frequency[arr[i]] > 0)
             //    {
-            //        Console.WriteLine($"the freq of Element {arr[i]} is {frequency[arr[i]]}");
-            //        frequency[arr[i] ]= -1;
+            //     Console.WriteLine($"the freq of Element {arr[i]} is {frequency[arr[i]]}");
+            //       frequency[arr[i] ]= -1;
             //    }
             //}
-                #endregion
+            #endregion
+            #region Q14 resolve 
+            //int size;
 
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter the size of the array: ");
+            //    f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f || size <= 0);
+            //int[] arr = new int[size];
+            //f = false;
 
-            }
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f) 
+            //        c++;
+            //}
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+
+            //    int[] test = Array.FindAll(arr, (x) => x == arr[i]);
+            //    Console.WriteLine($"The freq of Element {arr[i]} is {test.Length}");
+
+            //}
+            #endregion
+            #region Q15: Write a program in C# Sharp to find maximum and minimum element in an array
+            //int size;
+
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter the size of the array: ");
+            //    f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f || size <= 0);
+            //int[] arr = new int[size];
+            //f = false;
+            //int maxValue = int.MinValue;
+            //int minValue = int.MaxValue;
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f)
+            //    {
+            //        if (arr[c] > maxValue)
+            //            maxValue = arr[c];
+            //        if (arr[c] < minValue)
+            //            minValue = arr[c];
+            //        c++;
+            //    }
+            //}
+            //Console.WriteLine($"Min Value: {minValue}");
+            //Console.WriteLine($"Max Value: {maxValue}");
+
+            #endregion
+
+        }
     }
- }
+}
+ 
   
 
