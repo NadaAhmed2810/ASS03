@@ -43,8 +43,8 @@ namespace assignment03
             Console.WriteLine(new string(bits));
 
         }
-            static void Main(string[] args)
-            {
+        static void Main(string[] args)
+        {
             #region Q1: Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
             //bool flag = false;
             //int num;
@@ -203,38 +203,98 @@ namespace assignment03
             //Solve in Q8
             #endregion
             #region Q12: Write a program in C# Sharp to find the sum of all elements of the array.
-          
-                //int size;
-            
-                //bool f = false;
-                //do
-                //{
-                //  Console.Write("Enter the size of the array: ");
-                //   f = int.TryParse(Console.ReadLine(), out size);
-                //} while (!f || size<=0);
-                //int[] arr = new int[size];
 
-                //f = false;
-                //Console.WriteLine("Enter the elements of the array:");
-                //for (int i = 0; i < size;)
-                //{
-                //    Console.Write($"Enter Element {i+1} : ");
-                //    f = int.TryParse(Console.ReadLine(), out arr[i] );
-                //    if (f) i++;
-                
-                //}
+            //int size;
 
-                //int sum = 0;
-                //foreach (int num in arr)
-                //{
-                //    sum += num;
-                //}
-               
-                //Console.WriteLine($"The sum of all elements in the array is: {sum}" );
-            
-        #endregion
+            //bool f = false;
+            //do
+            //{
+            //  Console.Write("Enter the size of the array: ");
+            //   f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f || size<=0);
+            //int[] arr = new int[size];
 
+            //f = false;
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < size;)
+            //{
+            //    Console.Write($"Enter Element {i+1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[i] );
+            //    if (f) i++;
+
+            //}
+
+            //int sum = 0;
+            //foreach (int num in arr)
+            //{
+            //    sum += num;
+            //}
+
+            //Console.WriteLine($"The sum of all elements in the array is: {sum}" );
+
+            #endregion
+            #region Q13:Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+            //int size;
+
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter the size of the array: ");
+            //    f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f || size <= 0);
+            //int[] arr = new int[size];
+            //int[] arr2 = new int[size];
+            //int[] merge = new int[2 * size];
+            //f = false;
+            //Console.WriteLine("Enter the elements of first the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f) c++;
+
+            //}
+            //f = false;
+            //Console.WriteLine("Enter the elements of second the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr2[c]);
+            //    if (f) c++;
+
+            //}
+            //int i = 0, j = 0, k = 0;
+            //while (i < size && j < size)
+            //{
+            //    if (arr[i] <= arr2[j])
+            //    {
+            //        merge[k++] = arr[i++];
+            //    }
+            //    else
+            //    {
+            //        merge[k++] = arr2[j++];
+
+            //    }
+            //}
+
+
+            //while (i < size)
+            //{
+            //    merge[k++] = arr[i++];
+            //}
+            //while (j < size)
+            //{
+            //    merge[k++] = arr2[j++];
+
+            //}
+            //for (int c = 0; c < 2*size; c++)
+            //{
+            //    Console.WriteLine(merge[c]) ;
+            //}
+            #endregion
+        }
     }
     }
-    }
+  
 
