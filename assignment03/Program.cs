@@ -199,7 +199,42 @@ namespace assignment03
             //string s2 = Console.ReadLine();
             //Console.WriteLine($"{s1}{s2}");    
             #endregion
-        }
+            #region Q11:
+            //Solve in Q8
+            #endregion
+            #region Q12: Write a program in C# Sharp to find the sum of all elements of the array.
+          
+                //int size;
+            
+                //bool f = false;
+                //do
+                //{
+                //  Console.Write("Enter the size of the array: ");
+                //   f = int.TryParse(Console.ReadLine(), out size);
+                //} while (!f || size<=0);
+                //int[] arr = new int[size];
+
+                //f = false;
+                //Console.WriteLine("Enter the elements of the array:");
+                //for (int i = 0; i < size;)
+                //{
+                //    Console.Write($"Enter Element {i+1} : ");
+                //    f = int.TryParse(Console.ReadLine(), out arr[i] );
+                //    if (f) i++;
+                
+                //}
+
+                //int sum = 0;
+                //foreach (int num in arr)
+                //{
+                //    sum += num;
+                //}
+               
+                //Console.WriteLine($"The sum of all elements in the array is: {sum}" );
+            
+        #endregion
+
+    }
     }
     }
 
