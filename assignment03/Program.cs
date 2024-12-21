@@ -430,6 +430,34 @@ namespace assignment03
             //if(secondLargest==int.MinValue)Console.WriteLine("Array Is Equal");
             //else Console.WriteLine($"SecondLargest {secondLargest}");
             #endregion
+            #region Q17 :Consider an Array of Integer values with size N
+            //int size;
+            //bool f = false;
+            //do
+            //{
+            //    Console.Write("Enter Size of Array: ");
+            //    f = int.TryParse(Console.ReadLine(), out size);
+            //} while (!f && size > 0);
+            //int[] arr = new int[size];
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int c = 0; c < size;)
+            //{
+            //    Console.Write($"Enter Element {c + 1} : ");
+            //    f = int.TryParse(Console.ReadLine(), out arr[c]);
+            //    if (f)
+            //    {
+            //        c++;
+            //    }
+            //}
+            //int MaxLength = int.MinValue,length;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    length = Array.LastIndexOf(arr, arr[i])-Array.IndexOf(arr, arr[i]);
+            //    if(MaxLength<length)
+            //        MaxLength = length;
+            //}
+            //Console.WriteLine($"MaxLength: {MaxLength-1}");
+            #endregion
         }
     }
 
